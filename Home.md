@@ -1,7 +1,6 @@
 # Menú #
 
 
-* [Página de Inicio](https://github.com/titiushko/SYSCAP/wiki/Inicio)
 * [Configurar un Servidor LAMP en Debian Wheezy](https://github.com/titiushko/SYSCAP/wiki/Configurar%20un%20Servidor%20LAMP%20en%20Debian%20Wheezy)
 * [Configurar SYSCAP con Zend y Git en Windows](https://github.com/titiushko/SYSCAP/wiki/Configurar%20SYSCAP%20con%20Zend%20y%20Git%20en%20Windows)
 * [Comandos Git mas Usados](https://github.com/titiushko/SYSCAP/wiki/Comandos%20Git%20mas%20Usados)
