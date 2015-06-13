@@ -426,7 +426,6 @@ $foo = 'this'; $bar = 'that'; $bat = str_replace($foo, $bar, $bag);
 $foo = 'this';
 $bar = 'that';
 $bat = str_replace($foo, $bar, $bag);
-
 # **Cadenas**
 ```
 Siempre use cadenas de comillas simples a menos que necesite variables analizadas, y en casos donde necesite variables analizadas, use llaves para impedir ávidos análisis sintácticos de elementos. También puede usar cadenas de comillas dobles si la cadena contiene comillas simples, por lo tanto no hay necesidad de escapar caracteres.
