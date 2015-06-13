@@ -5,13 +5,15 @@
 * deben de ser nombres en plural.
 * el nombre debe tener significado nemónico
 * las palabras van separadas por guion bajo ```_```.
-* ejemplos: ```usuarios.php```, ```centros_educativos.php```.  
+* ejemplos: ```usuarios.php```, ```centros_educativos.php```.
+
 ### 1.1.2. Clases
 * se debe de llamar igual que el archivo ```php```.
 * la primera letra es en mayúscula y el resto es en minúsculas.
 * las palabras van separadas por guion bajo ```_```.
 * solo la primera letra de la primera palabra será mayúscula.
 * ejemplos: ```Usuarios```, ```Centros_educativos```.
+
 ## 1.2. Nombres de Modelos
 ### 1.2.1. Archivos
 * nombres escritos en minúsculas.
@@ -20,15 +22,18 @@
 * las palabras van separadas por guion bajo ```_```.
 * incluir el postfijo ```_model``` después del nombre.
 * ejemplos: ```usuarios_model.php```, ```centros_educativos_model.php```.
+
 ### 1.2.2. Clases
 * se debe de llamar igual que el archivo ```php```.
 * la primera letra es en mayúscula y el resto es en minúsculas.
 * las palabras van separadas por guion bajo ```_```.
 * solo la primera letra de la primera palabra será mayúscula.
 * ejemplos: ```Usuarios_model```, ```Centros_educativos_model```.
+
 ### 1.2.3. Carga
 * al cargar (o llamar) un modelo, debe tener el mismo nombre que el archivo ```php``` en minúsculas.
 * ejemplos: $this->load->model('```usuarios_model```');, $this->load->model('```centros_educativos_model```');
+
 ## 1.3. Nombres de Vistas
 ### 1.3.1. Archivos
 * nombres escritos en minúsculas.
@@ -37,10 +42,12 @@
 * las palabras van separadas por guion bajo ```_```.
 * incluir el postfijo ```_view``` después del nombre.
 * ejemplos: ```usuarios_view.php```, ```centros_educativos_view.php```.
+
 ### 1.3.2. Carga
 * al cargar (o llamar) una vista, debe tener el mismo nombre que el archivo ```php``` en minúsculas.
 * ejemplos: $this->load->view('```usuarios_view```');, $this->load->view('```centros_educativos_view```');
-## [1.4. Estilo y Sintaxis](https://bitbucket.org/titiushko/syscap/wiki/Estilo%20y%20Sintaxis%20Generales%20de%20PHP%20con%20CodeIgniter%20)
+
+## [1.4. Estilo y Sintaxis](https://github.com/titiushko/SYSCAP/wiki/Estilo-y-Sintaxis-Generales-de-PHP-con-CodeIgniter)
 # 2. MySQL
 ## 2.1. Nombres de Tablas
 * estar escrito en plural.
@@ -48,6 +55,7 @@
 * tener significado nemónico.
 * las palabras van separadas por guion bajo ```_```.
 * ejemplos: ```usuarios```, ```centros_educativos```.
+
 ## 2.2. Nombres de Campos
 * estar escrito en singular.
 * escrito en letras minúsculas.
@@ -57,16 +65,20 @@
 * la llave primaria es auto numérico.
 * la llave secundaria o foránea en una tabla es el nombre de la llave primaria de la tabla a la que pertenece.
 * ejemplos: ```nombre_usuario```, ```codigo_centro_educativo```, ```id_usuario```.
+
 ## 2.3. Nombre de Relación entre Tablas
 * incluir el prefijo ```fk_``` seguido del nombre de la tabla secundaria y el nombre de la tabla primaria.
 * escrito en letras minúsculas.
 * ejemplo si centros_educativos (tabla secundaria) y departamentos (tabla primaria): ```fk_centros_educativos_departamentos```.
+
 ## 2.4. Nombre de Rutinas
 * debe ser un verbo seguido de uno o más sustantivos.
 * utilizar el estilo de escritura ```CamelCase```.
+
 ### 2.4.1. Variables
 * dentro de un bloque, inician con el prefijo ```v_```, ejemplo: ```v_nombre```.
 * pasadas como parámetros, inician con el prefijo ```p_```, ejemplo: ```p_codigo```.
+
 ### 2.4.2. Cursores
 * inician con el prefijo ```c_```.
 * ejemplo: ```c_nombre```.
@@ -80,6 +92,7 @@ DECLARE c_nombre CURSOR FOR
 	WHERE employee_id = p_codigo_empleado;
 ```  
 * [Más sobre cursores](http://dev.mysql.com/doc/refman/5.7/en/declare-cursor.html)
+
 ### 2.4.3. Procedimientos
 * iniciar con el prefijo ```P_```.
 * ejemplo: ```P_ConsultarCentrosEducativos```.
@@ -101,6 +114,7 @@ $$
 DELIMITER ;
 ```  
 * [Más sobre procedimientos](http://dev.mysql.com/doc/refman/5.6/en/create-procedure.html)
+
 ### 2.4.4. Funciones
 * iniciar con el prefijo ```F_```.
 * ejemplo: ```F_NombreCentroEducativo```.
@@ -142,6 +156,7 @@ $$
 DELIMITER ;
 ```  
 * [Más sobre funciones](http://dev.mysql.com/doc/refman/5.6/en/create-procedure.html)
+
 ### 2.4.5. Triggers
 * iniciar con el prefijo ```T_```, seguido de la operación que realiza y el nombre de la tabla a la que pertenece.
 * ejemplo: ```T_ActualizarCentroEducativo```.
@@ -167,6 +182,7 @@ $$
 DELIMITER ;
 ```  
 * [Más sobre triggers](http://dev.mysql.com/doc/refman/5.6/en/create-trigger.html)
+
 ### 2.4.6. Vistas
 * iniciar con el prefijo ```V_```.
 * ejemplo: ```V_MunicipiosPorDepartamentos```.
@@ -182,6 +198,7 @@ $$
 DELIMITER ;
 ```  
 * [Más sobre vistas](http://dev.mysql.com/doc/refman/5.6/en/create-view.html)
+
 ### 2.4.7. Eventos
 * iniciar con el prefijo ```E```.
 * ejemplo: ```E_ActualizarFechaContratoEmpleados```.
@@ -198,6 +215,7 @@ $$
 DELIMITER ;
 ```  
 * [Más sobre eventos](http://dev.mysql.com/doc/refman/5.6/en/create-event.html)
+
 # 3. CSS
 ## [3.1. Reglas](http://olgacarreras.blogspot.com/2009/07/25-reglas-para-hacer-css-accesibles.html)
 ## [3.2. Buenas Prácticas](http://webusable.com/bestPractices.htm)
