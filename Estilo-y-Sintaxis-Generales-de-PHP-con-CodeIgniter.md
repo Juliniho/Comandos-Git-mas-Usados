@@ -7,6 +7,7 @@ Esta es la forma de aplicar esas configuraciones en los editores de texto más c
 3. En "Codificación de Archivo", seleccione "UTF-8 (recomendado)"
 4. En "Terminación de Línea", seleccione "LF (recomendado)"
 5. Opcional: Marque "También usar para los archivos existentes" si desea modificar las terminaciones de línea de archivos que abre para las nuevas preferencias.
+
 ### BBEdit
 1. Abra las Preferencias de la Aplicación
 2. Seleccione "Codificaciones del Texto" en la izquierda.
@@ -14,6 +15,7 @@ Esta es la forma de aplicar esas configuraciones en los editores de texto más c
 4. Opcional: En "Si no se puede determinar la codificación del archivo, usar", seleccione "Unicode (UTF-8, sin BOM)"
 5. Selecciones "Archivos de Texto" en la izquierda.
 6. En "Saltos de Línea por Defecto", seleccione "Mac OS X y Unix (LF)"
+
 # **Etiqueta de Cierre de PHP**
 La etiqueta de cierre de PHP en un documento PHP ```?>``` es opcional para el analizador de PHP. Sin embargo, si se usa, cualquier espacios en blanco que siga a la etiqueta de cierre, sea introducida por el desarrollador, el usuario o una aplicación FTP, puede causar una salida no deseada, errores de PHP, o si la última se suprime, páginas en blanco. Por esta razón, todos los archivos de PHP deberían **OMITIR** la etiqueta de cierre de PHP, y en su lugar usar un bloque de comentario para marcar el fin del archivo y su ubicación relativa a la raíz de la aplicación. Esto le permite aún identificar al archivo como completo y no trunco.
 ## INCORRECTO:
