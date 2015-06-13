@@ -5,7 +5,7 @@
 * deben de ser nombres en plural.
 * el nombre debe tener significado nemónico
 * las palabras van separadas por guion bajo ```_```.
-* ejemplos: ```usuarios.php```, ```centros_educativos.php```.
+* ejemplos: ```usuarios.php```, ```centros_educativos.php```.  
 ### 1.1.2. Clases
 * se debe de llamar igual que el archivo ```php```.
 * la primera letra es en mayúscula y el resto es en minúsculas.
