@@ -30,6 +30,7 @@
 ![12.png](http://titiushko.github.io/SYSCAP/wiki/flujo-trabajo/12.png)
 14. Verificar que el cambio (commit) que se acaba de subir (push) al repositorio SYSCAP remoto, aparezca en el ***historial de confirmaciones de Bitbucket***.
 15. Repetir los pasos del ```1``` al ```14```.
+
 # Flujo Alternativo #
 15. De la ventana de error de conflicto, seleccionar la opción ``` ``` y hacer clic al botón ``` ```.
 16. Arreglar manualmente el conflicto. Eliminar las ***líneas que agrego Git*** y guardar los cambios del archivo con conflicto.
